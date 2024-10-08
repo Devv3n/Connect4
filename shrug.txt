@@ -1,0 +1,21 @@
+Main
+ - Get both players names (by calling function) and store
+ - Get both players inputs on the grid
+
+GetPlayerName
+ - ask for name
+ - check if not empty
+ - return name if not empty
+
+Draw
+ - Start with string variable "|"
+ - Loop through every position in grid adding to string variable based on what is at that location + "|\n|" at end of line
+
+GetPlayerInput
+ - Ask for column
+ - Loop from down (8) to top (0) finding first open slot ORR ask for input again if column completely full
+ - Check for win using function
+
+CheckWin
+ - Loop horizontal finding every adjacent same piece in a row
+ - do that for vertical, diagonal forward, diagonal backwards
